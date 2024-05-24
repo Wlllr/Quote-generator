@@ -5,31 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quote Generator</title>
-    <link rel="icon" type="image/png" href="https://www.google.com/s2/favicons?domain=jacinto.design">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
-    <div class="quote-container" id="quote-container">
-        <!-- Quote  -->
-        <div class="quote-text">
+    <!-- Area da citacao  -->
+    <div class="citacao-container" id="citacao-container">
+        <div class="citacao-texto">
             <i class="fas fa-quote-left"></i>
-            <span id="quote"></span>
+            <span id="citacao"></span>
         </div>
-        <!-- Author -->
-        <div class="quote-author">
-            <span id="author"></span>
+        <!-- Area do autor -->
+        <div class="autor-citacao">
+            <span id="autor"></span>
         </div>
-        <!-- buttons -->
-        <div class="button-container">
-            <button class="twitter-button" id="twitter" title="Tweet this!">
+        <!-- area dos botoes -->
+        <div class="botoes-container">
+            <button class="botao-twitter" id="twitter" title="Tweet this!">
             <i class="fab fa-twitter"></i>
-            <button id="new-quote">New Quote</button>
+            <button id="nova-citacao">Nova Citação</button>
         </button>
         </div>
     </div>
-    <!-- Script -->
+    <!-- loader -->
+    <div class="loader" id="loader"></div>
     <script src="script.js"></script>
 </body>
 </html>
